@@ -17,7 +17,7 @@
    "metadata": {},
    "outputs": [],
    "source": [
-    "datasets = pd.read_csv('C:\\\\Users\\hp\\Desktop\\Social_Network_Ads.csv')\n",
+    "datasets = pd.read_csv('Product_Sales.csv')\n",
     "X = datasets.iloc[:, [2,3]].values\n",
     "Y = datasets.iloc[:, 4].values"
    ]
